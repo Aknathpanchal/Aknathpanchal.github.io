@@ -66,11 +66,11 @@ function Projects() {
           <img src={pr2} alt="Gradigi" />
          
         </div>
-        <div className="project-description" style={{ color: theme.tertiary80, textAlign: "justify" ,fontFamily:"sans-serif"}}>
+        <div className="project-description" style={{ color: theme.tertiary80,fontFamily:"sans-serif"}}>
           <h2 style={{ fontSize: "31px" }}>
           GRADIGI-For Grading Presentation
           </h2>
-          <p style={{ color: theme.tertiary80, textAlign: "justify" }}>
+          <p style={{ color: theme.tertiary80 }}>
           In this website, we specialize in creating and managing presentations for individuals and businesses alike. Our platform allows you to assign different sections of your presentation to specific administrators, who can then create and set attributes for each section.
           </p>
           <p>
@@ -93,21 +93,21 @@ function Projects() {
           <h2>Tech Stack:-</h2>
           <h3>Frontend Tech Stack-</h3>
           <p>HTML | CSS | Javascript | React | Redux | MUI</p>
-          <h3>Backend Tech Stack-</h3>
+          {/* <h3>Backend Tech Stack-</h3>
           <p>
             JAVA | Spring Boot | Mysql | Apache | JWT | AWS | Postman |
             Nginx
-          </p>
+          </p> */}
           <div className="live-links">
             <a target="_blank" href="http://35.178.251.86:8080/">
               <p src={rocket}></p> Live Site
             </a>
-            <a
+            {/* <a
               target="_blank"
               // href=""
             >
               <p >GitRepo</p>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -118,11 +118,11 @@ function Projects() {
           <img src={pr4} alt="Masai Placement Poartal" />
          
         </div>
-        <div className="project-description" style={{ color: theme.tertiary80, textAlign: "justify" ,fontFamily:"sans-serif"}}>
+        <div className="project-description" style={{ color: theme.tertiary80,fontFamily:"sans-serif"}}>
           <h2 style={{ fontSize: "31px" }}>
           Masai Placement Portal
           </h2>
-          <p style={{ color: theme.tertiary80, textAlign: "justify" }}>
+          <p style={{ color: theme.tertiary80}}>
          This is the Masai Build and Earn Project. We built this website where the Placement team can bring companies from different sources and update them on the portal so that students can apply according to their skill sets. While working on this project, we learned a lot about teamwork, coordination, and thinking along with all the team members. 😊
           </p>
           <p>
@@ -146,20 +146,20 @@ function Projects() {
           <h2>Tech Stack:-</h2>
           <h3>Frontend Tech Stack-</h3>
           <p>HTML | CSS | Javascript | React | Redux | Ant-design | Santry</p>
-          <h3>Backend Tech Stack-</h3>
+          {/* <h3>Backend Tech Stack-</h3>
           <p>
             Node | Express | Redis | JWT | Postman
-          </p>
+          </p> */}
           <div className="live-links">
             <a target="_blank" href="https://masai-placement-portal.netlify.app/">
               <p src={rocket}></p> Live Site
             </a>
-            <a
+            {/* <a
               target="_blank"
               href="https://github.com/Aknathpanchal/Masai-Placement-Portal"
             >
               <p >GitRepo</p>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -170,11 +170,11 @@ function Projects() {
           {/* <img src={pr4} alt="Masai Placement Poartal" /> */}
          
         </div>
-        <div className="project-description" style={{ color: theme.tertiary80, textAlign: "justify" ,fontFamily:"sans-serif"}}>
+        <div className="project-description" style={{ color: theme.tertiary80,fontFamily:"sans-serif"}}>
           <h2 style={{ fontSize: "31px" }}>
           Frontend Master
           </h2>
-          <p style={{ color: theme.tertiary80, textAlign: "justify" }}>
+          <p style={{ color: theme.tertiary80}}>
           Frontend Master is a web application to provide courses to master front-end skills.
           </p>
           <p>
@@ -214,11 +214,11 @@ function Projects() {
           {/* <img src={pr4} alt="Masai Placement Poartal" /> */}
          
         </div>
-        <div className="project-description" style={{ color: theme.tertiary80, textAlign: "justify" ,fontFamily:"sans-serif"}}>
+        <div className="project-description" style={{ color: theme.tertiary80,fontFamily:"sans-serif"}}>
           <h2 style={{ fontSize: "31px" }}>
           Apple-TV+ Website Clone
           </h2>
-          <p style={{ color: theme.tertiary80, textAlign: "justify" }}>
+          <p style={{ color: theme.tertiary80}}>
           Apple TV+ is an American subscription streaming service owned and operated by Apple Inc. It offers a selection of original production films and television series called Apple Originals. It's the portal for Apple's Apple TV+ service, featuring original content created for Apple.
           </p>
           <p>

@@ -78,6 +78,8 @@
 
     #hmenu{
         display: flex;
+        position: fixed;
+        margin-left: 80%;
     }
 }
 

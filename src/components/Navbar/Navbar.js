@@ -317,7 +317,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Github
                                     </span>
                                 </div>
                             </NavLink>

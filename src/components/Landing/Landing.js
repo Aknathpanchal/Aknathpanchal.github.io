@@ -154,7 +154,7 @@ function Landing() {
           <div className="lcr--content" style={{ color: theme.tertiary }}>
             <h6>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
-            <p style={{ textAlign: "justify" }}>{headerData.desciption}</p>
+            <p>{headerData.desciption}</p>
 
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
@@ -162,6 +162,7 @@ function Landing() {
                 onClick={handleResume}
                 target="_blank"
                 className="btn"
+                // download="filename.pdf"
                 >
                   <Button className={classes.resumeBtn}>Resume</Button>
                 </a>
