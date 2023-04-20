@@ -31,7 +31,7 @@ function Landing() {
 
   const viewResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1O6108O251gPH9vuaMjHg6jLIXjAs16Z1/view"
+      "https://drive.google.com/file/d/1Npwf5ZEBSocYG9aka3WICNYRuymg0cE6/view?usp=sharing"
     );
   };
 
